@@ -1,3 +1,4 @@
+#ice
 def isprime(x):
     c=1
     for i in range(2,x):
@@ -9,10 +10,8 @@ n=int(input())
 l=[]
 d=0
 for i in range(2,n):
-    print(isprime(i))
     if isprime(i)==1:
         l.append(i)
-print(l)
 l1=l
 for i in l:
     for j in l1:
