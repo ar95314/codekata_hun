@@ -5,5 +5,7 @@ if len(l)%2==1:
 	y=l[i+1:]
 	if x==y:
 		print("YES")
+	else:
+		print("NO")
 else:
 	print("NO")
