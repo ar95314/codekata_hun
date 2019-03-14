@@ -6,8 +6,5 @@ for i in range(len(x)-1):
 		y.append(x[i+1])
 	else:
 		y.append(-1)
-if x[-1]>x[0]:
-	y.append(x[i+1])
-else:
-	y.append(-1)
+y.append(-1)
 print(*y)
