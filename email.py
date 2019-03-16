@@ -5,12 +5,13 @@ if s.count('@')==1 and s.count('.')==1 and s[-4:]==".com":
 		if s[i]=='@':
 			f=1
 			if len(s[:i])>=3:
-				c+=1
+				x=i
 			else:
 				p="NO"
 				break
 		elif s[i]==".":
-			if c>=4:
+			y=i
+			if s[x:y]=="gmail":
 				p="YES"
 			else:
 				p="NO"
