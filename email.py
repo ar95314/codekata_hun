@@ -5,7 +5,7 @@ if s.count('@')==1 and s.count('.')==1 and s[-4:]==".com":
 		if s[i]=='@':
 			f=1
 			if len(s[:i])>=3:
-				x=i
+				x=i+1
 			else:
 				p="NO"
 				break
